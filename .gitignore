@@ -205,3 +205,33 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# --- CUSTOM DATA ENGINEERING RULES ---
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars
+
+# Data (WICHTIG: Keine großen Daten hochladen)
+*.csv
+*.parquet
+*.avro
+*.json.gz
+data/
+ny_taxi_postgres_data/
+
+# Credentials & Secrets (WICHTIG: Keine Passwörter!)
+*.json
+*.pem
+google_credentials.json
+.google/
+gcp_creds/
+
+# dbt specific
+dbt_modules/
+target/
+logs/

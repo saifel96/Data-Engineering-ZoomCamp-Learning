@@ -1,2 +1,38 @@
 # Data-Engineering-ZoomCamp-Learning
 My learning journey through the Data Engineering Zoomcamp. This repo contains notes, homework, and projects covering Docker, Terraform, Kestra, BigQuery, dbt, Spark, and Kafka.
+
+
+# Data Engineering Zoomcamp 2026 🚀
+
+This repository contains my coursework, notes, and projects for the [Data Engineering Zoomcamp](https://github.com/DataTalksClub/data-engineering-zoomcamp) by DataTalks.Club.
+
+## 📚 Course Overview
+The goal of this repo is to document my learning journey through the modern data stack, building an end-to-end data pipeline.
+
+### 🛠️ Tech Stack
+* **Containerization:** Docker & Docker Compose
+* **Infrastructure as Code:** Terraform
+* **Orchestration:** Kestra
+* **Data Warehouse:** Google BigQuery
+* **Batch Processing:** Apache Spark
+* **Streaming:** Apache Kafka
+* **Transformation:** dbt (Data Build Tool)
+
+## 🗂️ Project Structure
+
+| Module | Topic | Status |
+| :--- | :--- | :--- |
+| **Module 1** | Containerization and Infrastructure as Code | 🚧 In Progress |
+| **Module 2** | Workflow Orchestration (Kestra) | ⏳ Pending |
+| **Module 3** | Data Warehouse (BigQuery) | ⏳ Pending |
+| **Module 4** | Analytics Engineering (dbt) | ⏳ Pending |
+| **Module 5** | Batch Processing (Spark) | ⏳ Pending |
+| **Module 6** | Streaming (Kafka) | ⏳ Pending |
+| **Project** | Final Capstone Project | ⏳ Pending |
+
+## 📝 Learning Notes
+You can find my detailed notes and solution code in the respective folders:
+* [Module 1: Docker & Terraform](./01-docker-terraform)
+
+---
+*Created by saifel96*
