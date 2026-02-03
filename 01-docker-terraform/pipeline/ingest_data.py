@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import argparse
 import pandas as pd
 from sqlalchemy import create_engine
 from tqdm.auto import tqdm
@@ -73,15 +74,28 @@ def ingest_data(
     print(f'done ingesting to {target_table}')
 
 def main():
-    pg_user = 'root'
-    pg_pass = 'root'
-    pg_host = 'localhost'
-    pg_port = '5432'
-    pg_db = 'ny_taxi'
-    year = 2021
-    month = 1
-    chunksize = 100000
-    target_table = 'yellow_taxi_data'
+    parser = argparse.ArgumentParser(description='Ingest taxi data into PostgreSQL')
+    parser.add_argument('--pg-user', required=True, help='PostgreSQL user')
+    parser.add_argument('--pg-pass', required=True, help='PostgreSQL password')
+    parser.add_argument('--pg-host', required=True, help='PostgreSQL host')
+    parser.add_argument('--pg-port', required=True, help='PostgreSQL port')
+    parser.add_argument('--pg-db', required=True, help='PostgreSQL database name')
+    parser.add_argument('--target-table', required=True, help='Target table name')
+    parser.add_argument('--year', type=int, required=True, help='Year of the data')
+    parser.add_argument('--month', type=int, required=True, help='Month of the data')
+    parser.add_argument('--chunksize', type=int, default=100000, help='Chunk size for reading CSV')
+    
+    args = parser.parse_args()
+    
+    pg_user = args.pg_user
+    pg_pass = args.pg_pass
+    pg_host = args.pg_host
+    pg_port = args.pg_port
+    pg_db = args.pg_db
+    year = args.year
+    month = args.month
+    chunksize = args.chunksize
+    target_table = args.target_table
 
     engine = create_engine(f'postgresql://{pg_user}:{pg_pass}@{pg_host}:{pg_port}/{pg_db}')
     url_prefix = 'https://github.com/DataTalksClub/nyc-tlc-data/releases/download/yellow'
