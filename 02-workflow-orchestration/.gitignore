@@ -1,0 +1,39 @@
+# Environment variables - DO NOT COMMIT
+.env
+.env.save
+.env_encoded
+.env.local
+
+# Secrets and credentials
+*credentials*.json
+*service-account*.json
+
+# Kestra data
+kestra-data/
+postgres-data/
+
+# Docker volumes
+volumes/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.pytest_cache/
