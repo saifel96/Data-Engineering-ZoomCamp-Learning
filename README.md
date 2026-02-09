@@ -24,7 +24,7 @@ The goal of this repo is to document my learning journey through the modern data
 | :--- | :--- | :--- |
 | **Module 1** | Containerization and Infrastructure as Code | Completed ✅ |
 | **Module 2** | Workflow Orchestration (Kestra) | Completed ✅ |
-| **Module 3** | Data Warehouse (BigQuery) | ⏳ Pending |
+| **Module 3** | Data Warehouse (BigQuery) | Completed ✅ |
 | **Module 4** | Analytics Engineering (dbt) | ⏳ Pending |
 | **Module 5** | Batch Processing (Spark) | ⏳ Pending |
 | **Module 6** | Streaming (Kafka) | ⏳ Pending |
@@ -34,6 +34,7 @@ The goal of this repo is to document my learning journey through the modern data
 You can find my detailed notes and solution code in the respective folders:
 * [Module 1: Docker & Terraform](./01-docker-terraform)
 * [Module 2: Workflow Orchestration (Kestra)](./02-workflow-orchestration)
+* [Module 3: Data Warehouse (BigQuery)](./03-Data-Warehouse-BigQuery)
 
 ---
 *Created by saifel96*
