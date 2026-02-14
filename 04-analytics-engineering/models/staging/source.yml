@@ -1,0 +1,12 @@
+sources:
+  - name: staging
+    description: "Raw data source for NYC taxi rides"
+    database: kestra-sandbox-486523
+    schema: zoomcamp
+    tables:
+      - name:  yellow_tripdata
+        description: "Yellow taxi rides from 2019 and 2020"
+      - name:  green_tripdata
+        description: "Green taxi rides from 2019 and 2020"
+      - name : fhv_tripdata
+        description:  "For-Hire Vehicles from 2019"
