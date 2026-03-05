@@ -26,8 +26,9 @@ The goal of this repo is to document my learning journey through the modern data
 | **Module 2** | Workflow Orchestration (Kestra) | Completed ✅ |
 | **Module 3** | Data Warehouse (BigQuery) | Completed ✅ |
 | **Module 4** | Analytics Engineering (dbt) | Completed ✅ |
-| **Module 5** | Batch Processing (Spark) | ⏳ Pending |
-| **Module 6** | Streaming (Kafka) | ⏳ Pending |
+| **Module 5** | 05-data-platforms | Completed ✅ |
+| **Module 6** | Batch Processing (Spark) | ✅ |
+| **Module 7** | Streaming (Kafka) | ⏳ Pending |
 | **Project** | Final Capstone Project | ⏳ Pending |
 
 ## 📝 Learning Notes
