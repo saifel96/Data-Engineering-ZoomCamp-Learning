@@ -28,7 +28,7 @@ The goal of this repo is to document my learning journey through the modern data
 | **Module 4** | Analytics Engineering (dbt) | Completed ✅ |
 | **Module 5** | 05-data-platforms | Completed ✅ |
 | **Module 6** | Batch Processing (Spark) | Completed ✅ |
-| **Module 7** | Streaming (Kafka) | ⏳ Pending |
+| **Module 7** | Streaming (Redpanda + PyFlink) | Completed ✅ |
 | **Project** | Final Capstone Project | ⏳ Pending |
 
 ## 📝 Learning Notes
